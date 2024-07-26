@@ -1,0 +1,27 @@
+.doccontainer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropzone {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropzone p {
+  margin: 0;
+  color: #007bff;
+}
+
+.errors {
+  margin: 10px 0;
+  color: red;
+}

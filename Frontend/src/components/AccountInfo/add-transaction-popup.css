@@ -1,0 +1,125 @@
+/* Overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Popup Content */
+  .popup-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Form Group */
+  .Form-group {
+    margin-bottom: 15px;
+  }
+  
+  .Form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333333;
+  }
+  
+  .Form-group input[type="text"],
+  .Form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+  }
+  
+  .Form-group input[type="text"]:focus,
+  .Form-group input[type="number"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* Radio Group */
+  /* .Radio-Group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .Radio-Group label {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+   
+  }
+  
+  .Radio-Group input {
+    margin-right: 5px;
+    visibility: visible;  
+  } */
+  .Radio-Group input[type="radio"] {
+    position: absolute;
+    /* opacity: 0; */
+  }
+  
+  /* Buttons */
+  /* button {
+    display: inline-block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+  } */
+  
+  button:hover {
+    background-color: #0056b3;
+    /* transform: scale(1.02); */
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Close Button */
+  button.close {
+    background-color: #007bff;
+    margin-top: 10px;
+  }
+  
+  button.close:hover {
+    background-color:  #1a3858 ;
+  }
+  
+  .addtransaction{
+    width: 400px;
+
+  }

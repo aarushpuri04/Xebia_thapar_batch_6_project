@@ -1,0 +1,93 @@
+
+.doccontainer {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.select-container {
+  margin-bottom: 20px;
+}
+
+.dropzone {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e9f5ff;
+}
+
+.dropzone.active {
+  background-color: #cceeff;
+}
+
+.dropzone.disabled {
+  border: 2px dashed #ccc;
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.dropzone p {
+  margin: 0;
+  color: #007bff;
+}
+
+.errors {
+  margin: 10px 0;
+}
+
+.uploaded-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.uploaded-table th,
+.uploaded-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.uploaded-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.uploaded-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff1a1a;
+}

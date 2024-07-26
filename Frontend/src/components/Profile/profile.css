@@ -1,0 +1,129 @@
+/* Container for profile content */
+.profile-card-address, .profile-card, .profile-card-emp, .profile-card-doc, .profile-card-citizen, .profile-card-personaldetails {
+  color: #0E3386; /* Replace with your desired color */
+}
+
+.profile-body {
+  background-color: #F0F8FF;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Main container for profile items */
+.profile-container {
+  width: 100%;
+  max-width: 1200px; /* Adjust the max-width as needed */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 20px; /* Gap between columns */
+}
+
+/* Title section */
+.profile-title {
+  text-align: center;
+  margin-bottom: 20px;
+  grid-column: span 2; /* Title spans both columns */
+  color: #004687;
+}
+
+/* Card styling */
+.profile-card, .profile-card-emp, .profile-card-doc, .profile-card-citizen, .profile-card-address, .profile-card-personaldetails {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card header styling for alignment */
+.profile-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Specific card columns */
+.profile-card, .profile-card-emp, .profile-card-doc, .profile-card-citizen, .profile-card-address, .profile-card-personaldetails {
+  margin-bottom: 20px;
+}
+
+/* First column cards */
+.profile-card-personaldetails,
+.profile-card-emp,
+.profile-card-citizen,
+.profile-card-address {
+  grid-column: 1; /* All these cards are in the first column */
+}
+
+/* Second column cards */
+.profile-card-doc,
+.profile-card {
+  grid-column: 2; /* All these cards are in the second column */
+}
+
+/* Error and loading text */
+.profile-error, .profile-loading {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}
+
+/* Edit button styling */
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100px;
+  /* margin-left:400px; */
+ 
+ 
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.profile-card-header h2 {
+  margin: 0;
+  flex: 1;
+}
+
+.profile-card-header .edit-button {
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+
+ /* .Back-Button {
+  
+  background-color: #F0F8FF;
+  color: #004687;
+  border: none;
+  cursor: pointer;
+  display:flex;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  justify-content: left;
+ margin-top: -60px;
+
+}
+ 
+.Back-button-Text {
+  margin-left:  #004687; }  */
+  
+  .save-button{
+    background-color:   #007bff;
+    color: #fff;
+    margin-right:30px;
+  }
+  .close-button{
+    background-color:   #007bff;
+    color: #fff;
+  }

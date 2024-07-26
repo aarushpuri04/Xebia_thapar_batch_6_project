@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* background: #f0f0f0; */
+    margin: 0;
+}
+
+.progress-header {
+    width: 100vw;
+    padding: 10px;
+    
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+   
+   
+}
+
+.progress-bar {
+    width: 100vw;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background: #003366;
+    transition: width 0.3s;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.step:last-child {
+    margin-right: 0;
+}
+
+.step.active {
+    background: #003366;
+    color: white;
+}
+
+.highlighted-message {
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large; /* Increase the font size */
+    text-align: center; /* Center the text */
+    margin-bottom: 0px; /* Add some space below */
+}
+
+.highlighted-text {
+    color: rgb(255, 0, 55);
+}
+
+.styled-hr {
+    width: 30%;
+    border: none;
+    height: 1px;
+    background:rgba(0, 0, 0, 0.9); /* Change the color as needed */
+    margin: 20px 0 auto; /* Adjust the spacing as needed */
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+
+
+.form-container {
+    margin-top: 30px auto;
+    background: rgba(255, 255, 255, 0.9);
+    /* border-radius: 10px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+
+
+    
+   
+}
+
+.form-content h2 {
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.form-content p {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.button-next {
+    width: 100%;
+    padding: 10px;
+    background:#003366 ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    visibility: visible;
+   
+}
+
+ .button-next:hover {
+  
+   
+      background: #003366 ; 
+} 

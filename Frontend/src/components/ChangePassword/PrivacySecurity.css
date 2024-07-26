@@ -1,0 +1,104 @@
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.Container {
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 80px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 200%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.containerM {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  
+}
+
+.Header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Header h4 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0; 
+  padding: 10px 0; 
+  text-align: left;
+ 
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.back-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  
+ text-align: left;
+ margin-left: 10px;
+}
+
+.back-button {
+  
+  background-color: white;
+  color:black;
+  border: none;
+  cursor: pointer;
+  display:flex;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  justify-content: left;
+}
+ 
+.back-button-text {
+  margin-left: 10px; }
+
+.change-password-section {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.change-password-section h2 {
+  margin-bottom: 10px;
+}
+
+.change-password-section p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.greater{
+  text-align: right;
+  justify-content: right;
+  left:100px;
+}
+
+.greater-icon {
+  margin-left: 470px;
+  justify-items: right;
+  text-align: right;
+  float: right;
+ 
+}
